@@ -32,5 +32,5 @@ status:
     message: resource with apiVersion "infra.nephio.org/v1alpha1", kind "ClusterContext", name "avicha-edge-2", and namespace "default" injected to the package revision from the cluster
   - type: nf.nephio.org.UPFDeployment.upf-deployment.Injected
     status: "False"
-    reason: ErrorDuringInjection
-    message: did not find UPF "agg-layer" in FiveGCoreTopology
+    reason: ResourceNotFound
+    message: upfdeployments.nf.nephio.org "avicha-edge-2" not found
